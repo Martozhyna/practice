@@ -1,7 +1,7 @@
-function Simpsons (props) {
+function PopularSimpsons (props) {
     let {itemName, itemPhrase, itemPhoto} = props;
     return (
-        <div className={'simpson'}>
+        <div className={'card'}>
             <div className={'photo'}>
                 <img src={itemPhoto} alt={itemName}/>
             </div>
@@ -14,4 +14,4 @@ function Simpsons (props) {
         </div>
     )
 }
-export default Simpsons
+export default PopularSimpsons
