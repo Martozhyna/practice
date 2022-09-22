@@ -33,6 +33,11 @@ body{
     background: #CC8B65;
     color: #013328;
 }
+
+.btn{
+    transition-duration: 0.4s;
+}
+
 .btn>button{
     width: 30%;
     height: 30px;
@@ -40,6 +45,7 @@ body{
     border-radius: 20px;
     background: #CC8B65;
     color: #013328;
+
 }
 
 .btn>button:hover{
@@ -48,5 +54,5 @@ body{
     background: #013328;
     color: #CC8B65;
     cursor: pointer;
-    transition: 100ms;
+
 }
