@@ -34,9 +34,7 @@ body{
     color: #013328;
 }
 
-.btn{
-    transition-duration: 0.4s;
-}
+
 
 .btn>button{
     width: 30%;
@@ -45,6 +43,7 @@ body{
     border-radius: 20px;
     background: #CC8B65;
     color: #013328;
+    transition-duration: 0.4s;
 
 }
 
