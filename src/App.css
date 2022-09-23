@@ -1,1 +1,22 @@
+body{
+    background: #0B3C5D;
+}
+.title{
+    text-align: center;
+    color: #D9B310;
+}
 
+.rockets{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.rocket{
+    text-align: center;
+    width: 30%;
+    border: 2px solid #D9B310;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background: #328CC1;
+    color: #1D2731;
+}
