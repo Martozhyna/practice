@@ -1,0 +1,12 @@
+.Users{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    margin: 10px;
+    width: 45%;
+}
+.user{
+
+}
