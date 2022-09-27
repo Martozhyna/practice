@@ -3,7 +3,7 @@ import {userService} from "../../services";
 
 function UserForm ({setUsers}) {
 
-    const {register, handleSubmit, reset, formState:{errors, isValid}, setValue} = useForm({mode:'all'})
+    const {register, handleSubmit, formState:{errors, isValid}} = useForm({mode:'all'})
 
 
     const submit = async (user) => {
