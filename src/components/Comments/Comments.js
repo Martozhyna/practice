@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 
+import style from './Comments.module.css'
 import {CommentForm} from "../CommentForm/CommentForm";
 import {commentService} from "../../services";
 import {Comment} from "../Comment/Comment";
@@ -13,13 +14,16 @@ function Comments () {
 
 
     return (
-        <div>
-            <CommentForm/>
+        <>
+            <CommentForm setComments={setComments}/>
             <hr/>
-            {
-                comments.map(value => <Comment key={value.id} item={value}/>)
-            }
-        </div>
+            <div className={style.Comments}>
+                {
+                    comments.map((value, index) => <Comment key={index} item={value}/>)
+                }
+            </div>
+
+        </>
     );
 }
 export {Comments}
