@@ -10,7 +10,7 @@ function Comments () {
     let [comments, setComments] = useState([]);
     useEffect(()=>{
         commentService.getAll().then(({data}) => setComments(data));
-    })
+    },[])
 
 
     return (
