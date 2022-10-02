@@ -1,10 +1,10 @@
 import './App.css';
-import {Comments} from "./components";
+
 
 function App() {
   return (
       <div className="App">
-        <Comments/>
+
       </div>
   );
 }
