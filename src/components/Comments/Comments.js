@@ -1,7 +1,8 @@
 import {useEffect, useState} from "react";
+import {Outlet} from "react-router-dom";
 
 import {jsonPlaceholder} from "../../services";
-import {Comment} from "../Comment/Comment";
+import {Comment} from "../../pages";
 
 function Comments () {
 
@@ -13,6 +14,7 @@ function Comments () {
 
     return (
         <div>
+            <Outlet/>
             {
                 comment.map(value => <Comment key={value.id} item={value}/>)
             }

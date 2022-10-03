@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 import {jsonPlaceholder} from "../../services";
-import {Album} from "../Album/Album";
+import {Album} from "../../pages/Album/Album";
 
 
 

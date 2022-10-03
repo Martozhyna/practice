@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 import {jsonPlaceholder} from "../../services";
-import {Todo} from "../Todo/Todo";
+import {Todo} from "../../pages/Todo/Todo";
 
 function Todos () {
 

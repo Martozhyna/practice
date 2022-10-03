@@ -13,11 +13,13 @@ function App() {
             <hr/>
             <Routes>
 
-                <Route index element={<Home/>}/>
-                <Route path="/todos" element={<Todos/>}/>
-                <Route path="/albums" element={<Albums/>}/>
-                <Route path="/comments" element={<Comments/>}/>
-                <Route path="/posts/:id" element={<Posts/>}/>
+                <Route path={'/'} element={<Home/>}/>
+                <Route path={'todos'} element={<Todos/>}/>
+                <Route path={'albums'} element={<Albums/>}/>
+                <Route path={'comments'} element={<Comments/>}>
+                    <Route path={'posts/:id'} element={<Posts/>}/>
+                </Route>
+
 
             </Routes>
 

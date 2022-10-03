@@ -21,3 +21,12 @@ function Posts () {
     );
 }
 export {Posts}
+
+// function Posts () {
+//     return (
+//         <div>
+//             gfgfhh
+//         </div>
+//     )
+// }
+// export {Posts}
