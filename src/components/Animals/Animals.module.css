@@ -1,0 +1,24 @@
+.Animals{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.animal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    border: 2px solid #A15C38;
+    border-radius: 20px;
+    background: #C3A6A0;
+}
+
+.animal > button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #A15C38;
+    background: #F7F1F0;
+}
